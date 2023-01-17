@@ -52,5 +52,9 @@ Mkfile.old
 dkms.conf
 
 test/*
-.project
 pcf2bmf
+
+# Eclipse files
+.project
+.cproject
+org.eclipse.*
