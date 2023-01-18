@@ -58,3 +58,4 @@ pcf2bmf
 .project
 .cproject
 org.eclipse.*
+/build/
