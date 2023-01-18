@@ -11,10 +11,10 @@ CC := cc
 LFLAGS := -lc
 
 $(SRC_DIR)/%.o: $(SRC_DIR)/%.c $(INCLUDES)
-	$(CC) -c -I$(INCLUDE_DIR) -o $@ $<
+	$(CC) -g -c -I$(INCLUDE_DIR) -o $@ $<
 	
 $(OUT): $(OBJS)
-	$(CC) -o $@ $< $(LFLAGS)
+	$(CC) -g -o $@ $(OBJS) $(LFLAGS)
 	
 all: $(OUT)
 	 
